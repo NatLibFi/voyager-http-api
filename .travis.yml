@@ -10,4 +10,4 @@ after_script:
 addons:
   code_climate:
     repo_token:
-      secure: ""
+      secure: "TNW7dGPs5csyoJew9Fw3VD64rrM3ce605hFuo8mNzUl6XbTU7C+/9ZodS+FFqdhMkD0LMPyMn8NsZP4KvkGSu4cKC7mo0SnjN80CVbSKcHaTUP6aNZNFz+ewyNWiJxzuID8o38bEseWz9Ty0IwreFzFCm/xkPM4vC6QPjvNv+tGyObm8HPiMWDnnVy0bByGV3CO9ZfT1FCNpgpD9MU6Yr0dSyiYLgPbfgE4SczhrSp/ykNI7zM0ht1NqBXGsbomOepXEZPT8PMIHzS1VZ7vaveSqfeCuffzdxR+N/g3cb0OeHR62puNdvBvbvwaOeBSd8yyZD+f0wUkBJ2BKORRNRygB3Py7Y3daiMVYO7CZGw6P7fAM57IcJ4kT4f/Mw2IkBE61+cf1MycPXePZkhCBYq/ACjadJUAtuPGCLyLcvujWyC/RRWSnlwesZhrPXhKl5lyLrkx0oeuS/4oH+BuSEjxhngGXoJAkg0bsVAdLr9VmlFA+RzNV+X6/R+YAE6fBPSLMp3PLkKdhAWWoSSp99+BqMBHgaZ3QVLoPHeiGGsaMQrO++K8O3MCXRllnVvNVhiOqizq0GMwDfZFRq2/3PVtybWUdOgrVg9PDAJZhf+vB2W0yzit/o8/JHPgpk4oQ+zaZX18OXoauvdIdopTFAk7tEMpYALiakuMUjRDKvK4="
