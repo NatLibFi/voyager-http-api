@@ -1,0 +1,55 @@
+{
+  "name": "voyager-http-api",
+  "description": "RESTful HTTP API for the Voyager ILS",
+  "author": {
+    "name": "The National Library of Finland"
+  },
+  "keywords": [
+    "ex libris",
+    "exlibris",
+    "voyager",
+    "batchcat",
+    "ils",
+    "bib",
+    "library",
+    "libraries",
+    "http",
+    "api",
+    "rest"
+  ],
+  "homepage": "https://github.com/natlibfi/voyager-http-api",
+  "bugs": {
+    "url": "https://github.com/natlibfi/voyager-http-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:natlibfi/voyager-http-api.git"
+  },
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "main": "./lib/main",
+  "bin": [""],
+  "scripts": {
+    "lint": "jshint .",
+    "test": "istanbul cover _mocha",
+    "cover": "npm run test && istanbul check-coverage",
+    "check": "npm run lint && npm run cover",
+    "travisci": "npm run check",
+    "publish-to-npm": "npm install && npm run check && npm publish"
+  },
+  "dependencies": {
+    "voyager-batchcat-js": "https://github.com/natlibfi/voyager-batchcat-js",
+    "marc-record-converters": "https://github.com/natlibfi/marc-record-converters",
+    "express": "^4.14.0",    
+    "body-parser": "^1.5.2",
+    "moment": "^2.17.1",
+    "deep-assign": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "istanbul": "^0.4.5",
+    "codeclimate-test-reporter": "^0.4.0"
+  }
+}
