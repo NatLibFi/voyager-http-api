@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+if (process.argv.length < 3) {
+    console.log('USAGE: voyager-http-api <CONFIGURATION_FILE>');
+} else {
+    require('../lib/main')(JSON.parse(require('fs').readFileSync(process.argv[2], {encoding: 'utf8'})));
+}

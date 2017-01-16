@@ -28,7 +28,7 @@
   "license": "Apache-2.0",
   "version": "1.0.0",
   "main": "./lib/main",
-  "bin": [""],
+  "bin": ["./bin/voyager-http-api"],
   "scripts": {
     "lint": "jshint .",
     "test": "istanbul cover _mocha",
