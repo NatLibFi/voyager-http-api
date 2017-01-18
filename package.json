@@ -40,6 +40,7 @@
   "dependencies": {
     "voyager-batchcat-js": "https://github.com/natlibfi/voyager-batchcat-js",
     "marc-record-converters": "https://github.com/natlibfi/marc-record-converters",
+    "xmldom-xplat": "https://github.com/natlibfi/xmldom-xplat",
     "express": "^4.14.0",    
     "body-parser": "^1.5.2",
     "moment": "^2.17.1",
