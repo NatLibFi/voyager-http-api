@@ -1,0 +1,13 @@
+<records>
+   <collection>
+      <record>
+         <leader>00878cam a2200253 i 4500</leader>
+         <controlfield>12356</controlfield>
+         <controlfield>20110826153059.0</controlfield>
+         <controlfield>760910s1975    dcu      b   f000 0 eng  </controlfield>
+         <datafield tag="092" ind1=" " ind2=" ">
+           <subfield code="a">378.73 U58L</subfield>
+        </datafield>
+      </record>
+   </collection>
+</records>
