@@ -5,7 +5,7 @@
   "db": {
      "connectString": "VGER",
      "database": "foodb",
-     "username": "foo",
+     "user": "foo",
      "password": "bar"
    }
 }

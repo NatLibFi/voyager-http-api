@@ -5,3 +5,4 @@ voyager.ini
 tnsnames.ora
 wallet
 sqlnet.ora
+env
