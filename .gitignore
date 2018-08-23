@@ -1,2 +1,8 @@
 node_modules
 coverage
+config.json
+voyager.ini
+tnsnames.ora
+wallet
+sqlnet.ora
+env

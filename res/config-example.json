@@ -1,6 +1,11 @@
 {
-  "port": l337,
+  "port": 1337,
   "iniFile": "/foo/bar/voyager.ini",
   "externalUrl": "https://foo.bar/api",
-  "fetchApi": "https://foo.bar"
+  "db": {
+     "connectString": "VGER",
+     "database": "foodb",
+     "user": "foo",
+     "password": "bar"
+   }
 }
